@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_centerInParent="true"
+        android:layout_above="@+id/et_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/url" />
+
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_above="@+id/btn_random"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Enter text"
+        android:background="@color/white"
+        android:hint="@string/enter_text"
+        android:textAlignment="center"
+        android:inputType="text"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:text="@string/submit_btn"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_random"
+        android:text="@string/random_btn"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

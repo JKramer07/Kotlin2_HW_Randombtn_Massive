@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Kotlin2_HW_Randombtn_Massive</string>
+    <string name="url_1">https://i.pinimg.com/originals/37/43/2a/37432aab3b1cd5c5f49dabcf25a28d1d.jpg</string>
+    <string name="url_2">https://cs11.pikabu.ru/post_img/big/2020/08/22/11/1598122509129947245.jpg</string>
+    <string name="url_3">https://p.favim.com/orig/2019/04/03/phone-background-phone-backgrounds-phone-wallpaper-Favim.com-7029097.jpg</string>
+    <string name="url_4">https://avatanplus.com/files/resources/mid/5c28cb1fadbbb167ff5973e0.jpg</string>
+    <string name="url_5">https://gizchina.it/wp-content/uploads/2020/12/Samsung-galaxy-s21-sfondi-2.jpg</string>
+    <string name="url">URL</string>
+    <string name="submit_btn">Submit</string>
+    <string name="random_btn">Random</string>
+    <string name="enter_text">Enter text</string>
+    <string name="toast_added">Image was added!</string>
+</resources>
